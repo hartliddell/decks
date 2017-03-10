@@ -1,0 +1,26 @@
+{
+  "name": "decks",
+  "version": "1.0.0",
+  "description": "Decks",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "remark": "^7.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hartliddell/decks.git"
+  },
+  "author": "Hart Liddell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hartliddell/decks/issues"
+  },
+  "homepage": "https://github.com/hartliddell/decks#readme"
+}

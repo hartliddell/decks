@@ -1,42 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Test</title>
     <meta charset="utf-8">
     <style>
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
 	  @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700,400italic);
-
       body { font-family: 'Montserrat'; }
       .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
     </style>
   </head>
   <body>
-    <main id="source">
-
-class: center, top
-
-# Title
-
----
-
-class: left, top
-
-# Agenda
-
-1. Introduction
-2. Deep-dive
-3. ...
-
----
-
-# Introduction
-
-    </main>
+    <main id="source"></main>
     <script src="https://remarkjs.com/downloads/remark-latest.min.js">
     </script>
     <script>
-      var slideshow = remark.create();
+      var slideshow = remark.create({
+		  sourceUrl: 'slides.md'
+	  });
     </script>
   </body>
 </html>
